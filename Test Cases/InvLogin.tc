@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LoginFeature</name>
+   <name>InvLogin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>024a7556-6441-4443-a53e-85f4b904fa18</testCaseGuid>
+   <testCaseGuid>5cd91c9c-6e9c-474a-b40f-1c2436f52488</testCaseGuid>
 </TestCaseEntity>
