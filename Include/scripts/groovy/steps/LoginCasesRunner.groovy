@@ -26,8 +26,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features="Include/features",glue="",tags="@ValidInputs,@InvalidInputs",plugin=["pretty","html:ReportFolder1"]
+features="Include/features",glue="",tags="@ValidInputs,@InvalidInputs",plugin=["pretty","html:loginReport"]
 )
 
-public class LoginCases {
+public class LoginCasesRunner {
 }

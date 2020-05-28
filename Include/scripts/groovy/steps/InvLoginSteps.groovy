@@ -54,9 +54,9 @@ class InvLoginSteps {
 	@When("user navigates to account section")
 	public void user_navigates_to_Account_Section() {
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Account'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Account'), 5)
 
-		Mobile.tap(findTestObject('android.widget.Button0 - Sign in'), 0)
+		Mobile.tap(findTestObject('android.widget.Button0 - Sign in'), 5)
 
 		Mobile.pressBack()
 	}
@@ -65,13 +65,13 @@ class InvLoginSteps {
 	public void user_enters_the_and_and_hits_login(String userId, String password) {
 
 		Mobile.setText(findTestObject('android.widget.EditText0 - Enter your mobile number or email id'), userId,
-				0)
+				5)
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Login via Password'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Login via Password'), 5)
 
-		Mobile.setText(findTestObject('android.widget.EditText0 - Enter your password'), password, 0)
+		Mobile.setText(findTestObject('android.widget.EditText0 - Enter your password'), password, 5)
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Login'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Login'), 5)
 	}
 
 	@Then("verify user unable to login and still on login page")

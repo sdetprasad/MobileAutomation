@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TaggedRunner</name>
+   <name>TC_InvLogin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>96b3d466-c725-4deb-b4e0-c89bd64896ca</testCaseGuid>
+   <testCaseGuid>5cd91c9c-6e9c-474a-b40f-1c2436f52488</testCaseGuid>
 </TestCaseEntity>

@@ -31,9 +31,9 @@ public class loginSteps {
 	@When("user navigates to Account Section")
 	public void user_navigates_to_Account_Section() {
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Account'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Account'), 5)
 
-		Mobile.tap(findTestObject('android.widget.Button0 - Sign in'), 0)
+		Mobile.tap(findTestObject('android.widget.Button0 - Sign in'), 5)
 
 		Mobile.pressBack()
 	}
@@ -42,17 +42,17 @@ public class loginSteps {
 	public void user_enters_credentials_and_hits_Login() {
 
 		Mobile.setText(findTestObject('android.widget.EditText0 - Enter your mobile number or email id'), 'shekhar1237@gmail.com',
-				0)
+				5)
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Login via Password'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Login via Password'), 5)
 
-		Mobile.setEncryptedText(findTestObject('android.widget.EditText0 - Enter your password'), 'K9UX314tQyr2S0lGlOYlEQ==', 0)
+		Mobile.setEncryptedText(findTestObject('android.widget.EditText0 - Enter your password'), 'K9UX314tQyr2S0lGlOYlEQ==', 5)
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Login'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Login'), 5)
 
-		Mobile.tap(findTestObject('android.widget.Button0 - OK'), 0)
+		Mobile.tap(findTestObject('android.widget.Button0 - OK'), 5)
 
-		Mobile.tap(findTestObject('android.widget.TextView0 - Skip'), 0)
+		Mobile.tap(findTestObject('android.widget.TextView0 - Skip'), 5)
 	}
 
 	@Then("verify MyOrders section is present")

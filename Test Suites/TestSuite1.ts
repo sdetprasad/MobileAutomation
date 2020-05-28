@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>FunctionalTest</name>
+   <name>TestSuite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -11,21 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3027ade9-ec20-4bb1-81e2-20c2b5d0867b</testSuiteGuid>
    <testCaseLink>
-      <guid>088f82ac-52b5-4cd8-834f-ec48c4cc9ff6</guid>
+      <guid>b09ab7bb-4894-432e-bf5e-5bd4aa398a02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/VldLogin</testCaseId>
+      <testCaseId>Test Cases/TC_login_all</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d515afb2-e8e3-4067-aafe-1996da6c77ad</guid>
+      <guid>e9e7cb12-8a50-4581-80ca-2753d73070ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/InvLogin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7196064d-2ff8-49dd-a5a5-6f67650fbe84</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TaggedRunner</testCaseId>
+      <testCaseId>Test Cases/TC_addToCart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

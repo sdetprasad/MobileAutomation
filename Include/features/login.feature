@@ -1,4 +1,4 @@
-@FunctionalTest
+@Functional
 Feature: Login functionality of ShopClues Application
 
 Background:
