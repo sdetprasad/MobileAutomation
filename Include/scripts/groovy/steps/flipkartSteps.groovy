@@ -69,7 +69,7 @@ public class flipkartSteps {
 
 	@Then("user navigates to cart")
 	public void user_navigates_to_cart() {
-		
+
 		Mobile.tap(findTestObject('Object Repository/new/android.widget.TextView0 - SKIP  GO TO CART'),5)
 
 		Mobile.tap(findTestObject('FlipkartObjects/android.widget.TextView0 - Qty 1'), 5)

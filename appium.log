@@ -1,31 +1,31 @@
 [35m[Appium][39m Welcome to Appium v1.17.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 63603
+[35m[Appium][39m   port: 57597
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\owner\AppData\Local\Temp\\Katalon\Appium\Temp1590677602158
-[35m[Appium][39m   chromedriverPort: 63604
+[35m[Appium][39m   tmpDir: C:\Users\owner\AppData\Local\Temp\\Katalon\Appium\Temp1591001399232
+[35m[Appium][39m   chromedriverPort: 57598
 [35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":63604}'
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":57598}'
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 63604
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:63603
+[35m[Appium][39m   chromedriverPort: 57598
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57597
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\owner\\Downloads\\flipkart_6.17_androidapksbox.apk","noReset":true,"deviceName":"Xiaomi Redmi Note 7 Pro (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"2a10ca3f","systemPort":63609},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\owner\\Downloads\\flipkart_6.17_androidapksbox.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 7 Pro (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":63609,"appium:udid":"2a10ca3f"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\owner\\Downloads\\flipkart_6.17_androidapksbox.apk","noReset":true,"deviceName":"Xiaomi Redmi Note 7 Pro (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"2a10ca3f","systemPort":57605},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\owner\\Downloads\\flipkart_6.17_androidapksbox.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 7 Pro (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":57605,"appium:udid":"2a10ca3f"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 6137a672-ab3a-439b-aeb1-123a391990f7
+[35m[BaseDriver][39m Session created with session id: 63ac5b6f-42ff-4063-b187-8e0c046ebaa8
 [35m[BaseDriver][39m Using local app 'C:\Users\owner\Downloads\flipkart_6.17_androidapksbox.apk'
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\owner\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/owner/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -40,7 +40,7 @@
 [35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\owner\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
 [35m[ADB][39m The application at 'C:\Users\owner\Downloads\flipkart_6.17_androidapksbox.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[35m[ADB][39m The installation of 'flipkart_6.17_androidapksbox.apk' took 10624ms
+[35m[ADB][39m The installation of 'flipkart_6.17_androidapksbox.apk' took 20490ms
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.5
 [35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\owner\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\owner\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
@@ -49,48 +49,38 @@
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.flipkart.android/com.flipkart.android.SplashActivity and waiting for 'com.flipkart.android/com.flipkart.android.SplashActivity'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 6137a672-ab3a-439b-aeb1-123a391990f7 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23360 ms - 1276[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 63ac5b6f-42ff-4063-b187-8e0c046ebaa8 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m30615 ms - 1276[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7 [39m[32m200[39m [90m24 ms - 1208[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8 [39m[32m200[39m [90m20 ms - 1208[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7 [39m[32m200[39m [90m19 ms - 1208[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8 [39m[32m200[39m [90m13 ms - 1208[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (6137a672)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 270862dd-180d-4450-9cd2-0535608e6626 with 6137a672-ab3a-439b-aeb1-123a391990f7
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/source [39m[32m200[39m [90m352 ms - 3339[39m
+[35m[W3C (63ac5b6f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ab9dec04-d926-49fb-93ff-760f76896bab with 63ac5b6f-42ff-4063-b187-8e0c046ebaa8
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8/source [39m[32m200[39m [90m93 ms - 3339[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/screenshot [39m[32m200[39m [90m547 ms - 64934[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8/screenshot [39m[32m200[39m [90m591 ms - 64388[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/source[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (6137a672)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 270862dd-180d-4450-9cd2-0535608e6626 with 6137a672-ab3a-439b-aeb1-123a391990f7
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/source [39m[32m200[39m [90m717 ms - 33796[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7/screenshot [39m[32m200[39m [90m755 ms - 695350[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 6137a672-ab3a-439b-aeb1-123a391990f7 from our master session list
+[35m[Appium][39m Removing session 63ac5b6f-42ff-4063-b187-8e0c046ebaa8 from our master session list
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/6137a672-ab3a-439b-aeb1-123a391990f7 [39m[32m200[39m [90m939 ms - 14[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/63ac5b6f-42ff-4063-b187-8e0c046ebaa8 [39m[32m200[39m [90m473 ms - 14[39m
 [35m[HTTP][39m [90m[39m
