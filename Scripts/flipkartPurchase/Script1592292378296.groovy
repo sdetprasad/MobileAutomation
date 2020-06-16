@@ -17,19 +17,21 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\owner\\Downloads\\flipkart_6.17_androidapksbox.apk', true)
 
-Mobile.tap(findTestObject('addToCart/android.widget.Button0 - NONE OF THE ABOVE'), 5)
+Mobile.tap(findTestObject('addToCart/android.widget.Button0 - NONE OF THE ABOVE'), 10)
 
 Mobile.tap(findTestObject('addToCart/android.widget.ImageView0'), 5)
 
-Mobile.tap(findTestObject('addToCart/android.widget.ImageButton0'), 5)
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.ImageButton0 (2)'), 10)
 
-Mobile.tap(findTestObject('addToCart/android.widget.TextView0 - Electronics'), 15)
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.TextView0 - All Categories'), 10)
 
-Mobile.tap(findTestObject('addToCart/android.widget.TextView0 - Mobiles'), 10)
+//Mobile.tap(findTestObject('FlipkartObjects/android.widget.TextView0'), 10)
 
-Mobile.tap(findTestObject('addToCart/android.widget.ImageView0 (1)'), 10)
+//Mobile.waitForElementPresent(findTestObject('FlipkartObjects/android.widget.TextView0'), 10)
 
-Mobile.setText(findTestObject('addToCart/android.widget.EditText0 - Search for Products Brands..'), 'realme buds air', 
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.ImageView0 (4)'), 10)
+
+Mobile.setText(findTestObject('addToCart/android.widget.EditText0 - Search for Products Brands..'), 'one plus 7 pro 128gb', 
     10)
 
 Mobile.tap(findTestObject('addToCart/android.widget.ImageView0 (2)'), 10)
@@ -38,11 +40,12 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/addToCart/android
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/addToCart/android.widget.TextView0 - Sort'), 10)
 
-Mobile.tap(findTestObject('addToCart/android.widget.ImageView0 (3)'), 10,FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('addToCart/android.widget.ImageView0 (3)'), 10)
 
-Mobile.tap(findTestObject('addToCart/android.view.ViewGroup0'), 15,FailureHandling.CONTINUE_ON_FAILURE)
+//Mobile.tap(findTestObject('addToCart/android.view.ViewGroup0'), 15,FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('addToCart/android.widget.TextView0 - ADD TO CART'), 10)
+
 
 Mobile.tap(findTestObject('Object Repository/FlipkartObjects/android.widget.TextView0 - GO TO CART'), 10,FailureHandling.CONTINUE_ON_FAILURE)
 

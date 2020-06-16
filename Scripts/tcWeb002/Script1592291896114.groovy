@@ -14,13 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('bs://2f62e0073badc146fade339055941d14000716ef', true)
+WebUI.openBrowser('')
 
-Mobile.tap(findTestObject('android.widget.TextView1 - Home'), 0)
+WebUI.navigateToUrl('https://www.oracle.com/java/technologies/')
 
-Mobile.tap(findTestObject('android.widget.TextView5 - Account'), 0)
-Mobile.
+WebUI.click(findTestObject('Object Repository/Page_Oracle Java Technologies  Oracle/a_Learn how Java powers innovation'))
 
-Mobile.closeApplication()
+WebUI.click(findTestObject('Object Repository/Page_Java Resources for Students Hobbyists _866ed9/span_Learn Java Skills'))
 
+WebUI.closeBrowser()

@@ -17,10 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\owner\\Downloads\\flipkart_6.17_androidapksbox.apk', true)
 
-Mobile.tap(findTestObject('FlipkartObjects/android.widget.Button0 - NONE OF THE ABOVE'), 5)
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.ImageButton0 (2)'), 0)
 
-Mobile.tap(findTestObject('FlipkartObjects/android.widget.ImageView0 (2)'), 5)
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.TextView0 - All Categories'), 0)
 
-Mobile.tapAtPosition(362, 388)
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.TextView0'), 0)
+
+Mobile.tap(findTestObject('FlipkartObjects/android.widget.ImageView0 (4)'), 0)
+
+Mobile.setText(findTestObject('FlipkartObjects/android.widget.EditText0 - Search for Products Brands.. (2)'), 'noise shots groove', 
+    0)
 
 Mobile.closeApplication()
+
