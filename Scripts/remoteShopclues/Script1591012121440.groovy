@@ -35,7 +35,7 @@ Mobile.clearText(findTestObject('shopcluesRemote/android.widget.EditText0 - jack
 Mobile.setText(findTestObject('shopcluesRemote/android.widget.EditText0 - Enter your mobile number or email id (1)'), 'shekhar1237@gmail.com', 
     0)
 
-Mobile.clearText(findTestObject('shopcluesRemote/android.widget.EditText1 - jack123'), 0)
+Mobile.clearText(findTestObject('shopcluesRemote/android.widget.EditText1 - jack123'), 0 )
 
 Mobile.setEncryptedText(findTestObject('shopcluesRemote/android.widget.EditText1 - Enter your password (1)'), 'K9UX314tQyr2S0lGlOYlEQ==', 
     0)
@@ -45,4 +45,6 @@ Mobile.tap(findTestObject('shopcluesRemote/android.widget.TextView2 - Login'), 0
 Mobile.tap(findTestObject('shopcluesRemote/android.widget.TextView3 - Skip'), 0)
 
 Mobile.closeApplication()
+
+WebUI.acceptAlert()
 

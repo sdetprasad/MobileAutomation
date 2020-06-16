@@ -50,9 +50,11 @@ public class flipkartSteps {
 
 		Mobile.setText(findTestObject('FlipkartObjects/android.widget.EditText0 - Search for Products Brands.. (1)'), model, 5)
 
-		Mobile.tap(findTestObject('Object Repository/new/android.widget.TextView0 - apple iphone xr (128gb)'),5)
+		//Mobile.tap(findTestObject('Object Repository/new/android.widget.TextView0 - apple iphone xr (128gb)'),15)
+		Mobile.tapAtPosition(188,1080)
+		//Mobile.tap(findTestObject('Object Repository/new/android.widget.TextView0 - Apple iPhone XR (Black 128 GB)'),15)
+		Mobile.tapAtPosition(53,568)
 
-		Mobile.tap(findTestObject('Object Repository/new/android.widget.TextView0 - Apple iPhone XR (Black 128 GB)'),5)
 	}
 
 	@Then("user submits \"([^\"]*)\" for delivery and adds to cart")
